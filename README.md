@@ -14,9 +14,7 @@ Summary: Sequential model-based optimization toolbox.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/scikit-optimize-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scikit-optimize-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scikit-optimize-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scikit-optimize-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock)
 
 Current release info
 ====================
