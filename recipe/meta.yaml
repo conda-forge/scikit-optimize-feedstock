@@ -37,7 +37,6 @@ test:
     - skopt.optimizer
     - skopt.space
 
-
 about:
   home: https://scikit-optimize.github.io/
   license_file: LICENSE.md
