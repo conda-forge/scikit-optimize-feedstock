@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.4" %}
-{% set sha256 = "c01d5b9f31105172067b1df18d15c277a15c81580317c2b002d8e63df6216156" %}
+{% set version = "0.5" %}
+{% set sha256 = "c20f9ae162698e16c2f8476863780b198ad8d5d7f67d7dbf153be2338fdd7712" %}
 
 package:
   name: {{ name|lower }}
@@ -24,9 +24,8 @@ requirements:
   run:
     - python
     - numpy
-    - scipy
-    - scikit-learn >=0.18
-    - scikit-garden
+    - scipy >=0.14.0
+    - scikit-learn >=0.19.1
     - matplotlib
 
 test:
