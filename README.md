@@ -14,12 +14,15 @@ Summary: Sequential model-based optimization toolbox.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/scikit-optimize-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/scikit-optimize-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-optimize/badges/version.svg)](https://anaconda.org/conda-forge/scikit-optimize)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-optimize/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-optimize)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-scikit--optimize-green.svg)](https://anaconda.org/conda-forge/scikit-optimize) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/scikit-optimize.svg)](https://anaconda.org/conda-forge/scikit-optimize) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/scikit-optimize.svg)](https://anaconda.org/conda-forge/scikit-optimize) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/scikit-optimize.svg)](https://anaconda.org/conda-forge/scikit-optimize) |
 
 Installing scikit-optimize
 ==========================
