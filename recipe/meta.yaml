@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "83e4bd90cd4cad8cc45fb2d5bc9bee5db7a6c5f58f85adf7d547a06e604c8006" %}
+{% set version = "0.5.2" %}
+{% set sha256 = "1d7657a4b8ef9aa6d81e49b369c677c584e83269f11710557741d3b3f8fa0a75" %}
 
 package:
   name: {{ name|lower }}
