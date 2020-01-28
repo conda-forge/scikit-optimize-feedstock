@@ -23,6 +23,7 @@ requirements:
   run:
     - python
     - numpy
+    - pyyaml
     - scipy >=0.14.0
     - scikit-learn >=0.19.1
     - matplotlib
