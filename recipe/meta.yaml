@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "1d7657a4b8ef9aa6d81e49b369c677c584e83269f11710557741d3b3f8fa0a75" %}
+{% set version = "0.7" %}
+{% set sha256 = "071f7feb050b3dde4dda70c0e6989f5190cf9234fd61363fd2058601f3d8a2f7" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
