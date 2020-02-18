@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -26,7 +26,7 @@ requirements:
     - numpy
     - scipy >=0.14.0
     - scikit-learn >=0.19.1
-    - matplotlib
+    - matplotlib-base
     - pyaml
     - joblib
 
