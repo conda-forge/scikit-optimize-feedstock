@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.7.1" %}
-{% set sha256 = "850f166caf7cc8d2ab8fde26ffdecf23b3bd8d84a94f7d34994817ef7a898094" %}
+{% set version = "0.7.2" %}
+{% set sha256 = "211075a1a9c153a355918b9fad4df96ae4dc627a7c16d7b3078912c2e77c0cac" %}
 
 package:
   name: {{ name|lower }}
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://scikit-optimize.github.io/
-  license_file: LICENSE.md
+  license_file: LICENSE
   license: BSD 3-Clause
   license_family: BSD
   summary: 'Sequential model-based optimization toolbox.'
@@ -51,5 +51,6 @@ extra:
   recipe-maintainers:
     - pmlandwehr
     - ukaratay
+    - holgern
     
     
