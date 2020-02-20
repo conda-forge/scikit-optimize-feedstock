@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.5.2" %}
-{% set sha256 = "1d7657a4b8ef9aa6d81e49b369c677c584e83269f11710557741d3b3f8fa0a75" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "850f166caf7cc8d2ab8fde26ffdecf23b3bd8d84a94f7d34994817ef7a898094" %}
 
 package:
   name: {{ name|lower }}
@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
@@ -26,7 +26,9 @@ requirements:
     - numpy
     - scipy >=0.14.0
     - scikit-learn >=0.19.1
-    - matplotlib
+    - matplotlib-base
+    - pyaml
+    - joblib
 
 test:
   imports:
