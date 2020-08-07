@@ -3,9 +3,9 @@ About scikit-optimize
 
 Home: https://scikit-optimize.github.io/
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sequential model-based optimization toolbox.
 
@@ -116,6 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@holgern](https://github.com/holgern/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
 * [@ukaratay](https://github.com/ukaratay/)
 

@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -25,7 +25,7 @@ requirements:
     - python
     - numpy
     - scipy >=0.14.0
-    - scikit-learn >=0.19.1
+    - scikit-learn >=0.19.1, <=0.23.1
     - matplotlib-base
     - pyaml
     - joblib
@@ -41,7 +41,7 @@ test:
 about:
   home: https://scikit-optimize.github.io/
   license_file: LICENSE
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   summary: 'Sequential model-based optimization toolbox.'
   dev_url: https://github.com/scikit-optimize/scikit-optimize
