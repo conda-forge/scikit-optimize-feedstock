@@ -41,7 +41,7 @@ test:
 about:
   home: https://scikit-optimize.github.io/
   license_file: LICENSE
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   summary: 'Sequential model-based optimization toolbox.'
   dev_url: https://github.com/scikit-optimize/scikit-optimize
