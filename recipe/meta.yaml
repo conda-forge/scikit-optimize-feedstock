@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "ed5c47818959c91490120b89240527cf5ef36dc3e350dc79e5dbc22edc4ee186" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "77d8c9e64947fc9f5cc05bbc6aed7b8a9907871ae26fe11997fd67be90f26008" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
@@ -43,7 +43,7 @@ about:
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
-  summary: 'Sequential model-based optimization toolbox.'
+  summary: Sequential model-based optimization toolbox.
   dev_url: https://github.com/scikit-optimize/scikit-optimize
   doc_url: https://scikit-optimize.github.io/
 
@@ -52,4 +52,4 @@ extra:
     - pmlandwehr
     - ukaratay
     - holgern
-    
+
