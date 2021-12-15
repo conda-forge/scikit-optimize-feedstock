@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -36,6 +36,10 @@ test:
     - skopt.learning.gaussian_process
     - skopt.optimizer
     - skopt.space
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://scikit-optimize.github.io/
