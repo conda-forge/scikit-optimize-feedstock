@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.9.0" %}
-{% set sha256 = "77d8c9e64947fc9f5cc05bbc6aed7b8a9907871ae26fe11997fd67be90f26008" %}
+{% set version = "0.10.0" %}
+{% set sha256 = "b1cc4ad8de1b3b33c09713f45b642ed17ce2ae749aca8900ed7e3c8dce63baa1" %}
 
 package:
   name: {{ name|lower }}
@@ -12,22 +12,23 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - numpy
-    - scipy >=0.14.0
-    - scikit-learn >=0.19.1
+    - scipy >=1.1.0
+    - scikit-learn >=1.0.0
     - matplotlib-base
     - pyaml
     - joblib
+    - packaging
 
 test:
   imports:
@@ -42,13 +43,13 @@ test:
     - pip check
 
 about:
-  home: https://scikit-optimize.github.io/
+  home: https://scikit-optimize.readthedocs.io/
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
   summary: Sequential model-based optimization toolbox.
-  dev_url: https://github.com/scikit-optimize/scikit-optimize
-  doc_url: https://scikit-optimize.github.io/
+  dev_url: https://github.com/holgern/scikit-optimize
+  doc_url: https://scikit-optimize.readthedocs.io/
 
 extra:
   recipe-maintainers:
