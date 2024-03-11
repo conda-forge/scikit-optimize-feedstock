@@ -3,15 +3,15 @@ About scikit-optimize-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-optimize-feedstock/blob/main/LICENSE.txt)
 
-Home: https://scikit-optimize.github.io/
+Home: https://scikit-optimize.readthedocs.io/
 
 Package license: BSD-3-Clause
 
 Summary: Sequential model-based optimization toolbox.
 
-Development: https://github.com/scikit-optimize/scikit-optimize
+Development: https://github.com/holgern/scikit-optimize
 
-Documentation: https://scikit-optimize.github.io/
+Documentation: https://scikit-optimize.readthedocs.io/
 
 Current build status
 ====================
@@ -149,7 +149,4 @@ Feedstock Maintainers
 
 * [@holgern](https://github.com/holgern/)
 * [@ukaratay](https://github.com/ukaratay/)
-
-
-<!-- dummy commit to enable rerendering -->
 
