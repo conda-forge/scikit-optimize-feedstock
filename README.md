@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-optimize
 
 Summary: Sequential model-based optimization toolbox.
 
-Development: https://github.com/scikit-optimize/scikit-optimize
+Development: https://github.com/holgern/scikit-optimize
 
-Documentation: https://scikit-optimize.github.io/
+Documentation: http://scikit-optimize.readthedocs.io/
 
 Current build status
 ====================
