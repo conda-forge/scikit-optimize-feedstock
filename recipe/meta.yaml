@@ -18,16 +18,17 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
   run:
-    - python >=3.6
+    - python >=3.8
     - numpy
-    - scipy >=0.14.0
-    - scikit-learn >=0.19.1
+    - scipy >=1.1.0
+    - scikit-learn >=1.0.0
     - matplotlib-base
     - pyaml
     - joblib
+    - packaging
 
 test:
   imports:
@@ -42,13 +43,13 @@ test:
     - pip check
 
 about:
-  home: https://scikit-optimize.github.io/
+  home: https://scikit-optimize.readthedocs.io/
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
   summary: Sequential model-based optimization toolbox.
-  dev_url: https://github.com/scikit-optimize/scikit-optimize
-  doc_url: https://scikit-optimize.github.io/
+  dev_url: https://github.com/holgern/scikit-optimize
+  doc_url: https://scikit-optimize.readthedocs.io/
 
 extra:
   recipe-maintainers:
