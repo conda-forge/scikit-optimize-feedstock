@@ -1,6 +1,6 @@
 {% set name = "scikit-optimize" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "1016e953e3b4de14f16c049efaf14eeaf347a08cf135488447c16c45dadadbc4" %}
+{% set version = "0.10.2" %}
+{% set sha256 = "00a3d91bf9015e292b6e7aaefe7e6cb95e8d25ce19adafd2cd88849e1a0b0da0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
